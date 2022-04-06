@@ -13,5 +13,3 @@ public class GsonSerializer<T> implements Serializer<T> {
         return gson.toJson(object).getBytes();
     }
 }
-
-

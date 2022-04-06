@@ -28,5 +28,3 @@ public class GsonDeserializer<T> implements Deserializer<T> {
         return gson.fromJson(new String(bytes), type);
     }
 }
-
-
